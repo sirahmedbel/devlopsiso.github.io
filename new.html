@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>creat</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<script language="JavaScript">
+	function valid () {
+		var email=document.form2.email.value;
+		var password=document.form2.password.value;
+		var age=document.form2.age.value;
+		var tel=document.form2.tel.value;
+		var namelast=document.form2.namelast.value;
+        var name=document.form2.name.value;
+		if(!email || !password || !age || !tel || !namelast || !name){
+			alert(" please enter your data")
+			}
+		}
+</script>
+<body background ="img/2587482.jpg">
+<center>
+</br>
+<h1> <font COLOR="#ff0000" class="p2"> creat user</font> </h1>
+<h2><img src="img/ghu.png"></br>
+<form action="inx.html" name="form2">
+</br>
+<font COLOR="#ff0000" class="p2">name</br></font><input type="text" name= "name" class="input[type=text]">
+</br>
+<font COLOR="#ff0000" class="p2">name last</br></font><input type="text" name= "namelast" class="input[type=text]">
+</br>
+<font COLOR="#ff0000" class="p2">namber</br></font><input type="text" name= "tel" class="input[type=text]">
+</br>
+<font COLOR="#ff0000" class="p2">age</br></font><input type="text" name= "age" class="input[type=text]">
+</br>
+<font COLOR="#ff0000" class="p2">email</br></font><input type="text" name= "email" class="input[type=text]">
+</br>
+<font COLOR="#ff0000" class="p2">password</br></font><input type="password" name= "password" class="input[type=text]">
+</h2>
+<button type="submit" class="button" onmousedown="valid()" >ok</button>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.input, .button {
+	    background-color: #ECF0F1 ;
+	    border: none;
+	    border-radius: 12px;
+	    color: #EC50F1;
+	    padding: 20px 34px;
+	     text-align: center;
+	     text-decoration: none;
+	     display: inline-block;
+	     font-size: 20px;
+	     margin: 4px 2px;
+	     cursor: pointer;
+	     cursor: pointer;
+         display: inline-block;
+          position: relative;
+         transition: 0.5s;
+         transition: all 0.5s;
+         border-radius: 4px;
+         position: relative;
+ 
+        }
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ input[type=text], input[type=password], input[type=email]{
+    background-color: #126486;
+    background-image: url('fr.png') p20px;
+    background-position: 9px 10px;adding-left:50px 
+    background-repeat: no-repeat;
+    padding-left: 50px; 
+    font-size: 50px;
+    color: #EC50F1; 
+}
