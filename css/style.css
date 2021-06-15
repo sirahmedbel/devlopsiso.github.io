@@ -21,6 +21,7 @@
         }
 .p2 {
   font-family: Arial, Helvetica, sans-serif;
+	background-color: black
 }
  input[type=text], input[type=password], input[type=email]{
     background-color: #126486;
