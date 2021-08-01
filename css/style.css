@@ -20,6 +20,27 @@
     border-color: #17B2F5;
     background-color: #17B2F5;
 	}
+.input2, .button2 {
+	    background-color: #25c0f1 ;
+	    border: none;
+	    border-radius: 12px;
+	    color: #ffffff;
+	    padding: 20px 34px;
+	     text-align: center;
+	     text-decoration: none;
+	     display: inline-block;
+	     font-size: 20px;
+	     margin: 4px 2px;
+	     cursor: pointer;
+	     cursor: pointer;
+         display: inline-block;
+          position: relative;
+         transition: 0.5s;
+         transition: all 0.5s;
+         border-radius: 4px;
+         position: relative;
+ 
+        }
 .p2 {
   font-family: Arial, Helvetica, sans-serif;
 	background-color: black
