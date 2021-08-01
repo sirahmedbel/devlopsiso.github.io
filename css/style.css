@@ -1,5 +1,4 @@
 .input, .button {
-	    background-color: #25c0f1 ;
 	    border: none;
 	    border-radius: 12px;
 	    color: #ffffff;
@@ -9,16 +8,18 @@
 	     display: inline-block;
 	     font-size: 20px;
 	     margin: 4px 2px;
-	     cursor: pointer;
-	     cursor: pointer;
-         display: inline-block;
+	     cursor: pointer;        
           position: relative;
          transition: 0.5s;
          transition: all 0.5s;
+		 border: 5px solid #17B2F5;
          border-radius: 4px;
-         position: relative;
- 
         }
+.input, .button:hover{
+	color: #03a9f4;
+    border-color: #17B2F5;
+    background-color: #17B2F5;
+	}
 .p2 {
   font-family: Arial, Helvetica, sans-serif;
 	background-color: black
