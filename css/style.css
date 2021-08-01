@@ -33,3 +33,15 @@
     font-size: 50px;
     color: #EC50F1; 
 }
+.btn-white{
+    color:#17B2F5;
+    padding: 20px 34px;
+    border: 5px solid #17B2F5;
+    background-color: transparent;
+	border-radius: 12px;
+}
+.btn-white:hover{
+    color: #03a9f4;
+    border-color: #17B2F5;
+    background-color: #17B2F5;
+}
