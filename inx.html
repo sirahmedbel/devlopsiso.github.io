@@ -1,12 +1,26 @@
 <html>
 <head>
 <title>tecnonews|الصفحة الرئسية </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" type="image/png" href="favicon-16x16.ico">
 </head>
 <body background ="">
       <img src="uol.png"  height="50" class="botton"><img src="d.png" height="50" width="680" class="botton">  <a href="inx.html"><img src="‏‏d - نسخة.png" height="50" class="botton"></a>
-<center><div class="glass"><img src="s.png" width="1350"><font color="black">
+<center><div class="glass"><img src="s.png" width="1350"><font color="black"><button onclick="myFunction()">color mode</button>
 
 <h1>تابع اخر الاخبار
 </h1>
@@ -24,5 +38,11 @@
 </h3>
 </div>2021
 </center>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
