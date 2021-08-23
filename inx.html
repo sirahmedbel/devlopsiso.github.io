@@ -45,11 +45,27 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
+		@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
 </style>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" type="image/png" href="favicon-16x16.ico">
 </head>
-<body background =""><div class="glass">
+<body background ="" style="font-family:Verdana;"><div class="glass">
       <img src="uol.png"  height="50" class="botton"><img src="d.png" height="50" width="680" class="botton">  <a href="inx.html"><img src="‏‏d - نسخة.png" height="50" class="botton"></a>
 <center><button onclick="myFunction()" class="button">فاتح / داكن</button><img src="s.png" width="1200"><font color="black">
 
