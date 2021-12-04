@@ -62,60 +62,33 @@ margin: 0;
     width: 100%;
   }
 }
-		ul.sidenav {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  overflow: hidden;
+  background-color: #333;
 }
 
-ul.sidenav li a {
+ul.topnav li {float: left;}
+
+ul.topnav li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
- 
-ul.sidenav li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-div.content {
-  margin-left: 25%;
-  padding: 1px 16px;
-  height: 1000px;
-}
+ul.topnav li a.active {background-color: #04AA6D;}
 
-@media screen and (max-width: 900px) {
-  ul.sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  ul.sidenav li a {
-    float: left;
-    padding: 15px;
-  }
-  
-  div.content {margin-left: 0;}
-}
+ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 400px) {
-  ul.sidenav li a {
-    text-align: center;
-    float: none;
-  }
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
 </style>
 <link rel="stylesheet" type="text/css" href="css/style.css">
