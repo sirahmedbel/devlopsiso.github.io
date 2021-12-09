@@ -91,10 +91,6 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
   border: none;
   cursor: pointer;
 }
@@ -107,7 +103,6 @@ ul.topnav li.right {float: right;}
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -141,12 +136,12 @@ ul.topnav li.right {float: right;}
       <center>
 	      <ul class="topnav">
   <li><a class="active" href="inx.html">الصفحة الرئيسية</a></li>
-  <li><a class="dropbtn" href="#news">مقالات</a>
+  <li><div class="dropdown"><a class="dropbtn" href="#news">مقالات</a>
  <div class="dropdown-content">
   <a href="#">Link 1</a>
   <a href="#">Link 2</a>
   <a href="#">Link 3</a>
-  </div>		      
+  </div></div>		      
 </li>
   <li><a href="#contact">اخبار حديثة</a></li>
   <li class="right"><a href="#about">من نحن</a></li>
