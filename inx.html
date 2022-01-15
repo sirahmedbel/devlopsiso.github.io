@@ -153,6 +153,54 @@ ul.topnav li.right {float: right;}
     float: none;
   }
 }
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type="checkbox"] {
+	visibility: hidden;
+	&:checked + label {
+		transform: rotate(360deg);
+		background-color: #000;
+		&:before {
+			transform: translateX(90px);
+			background-color: #FFF;
+		}
+	}
+}
+
+label {
+	display: flex;
+	width: 180px;
+	height: 90px;
+	border: 6px solid;
+	border-radius: 99em;
+	position: relative;
+	transition: transform .75s ease-in-out;
+	transform-origin: 50% 50%;
+	cursor: pointer;
+	
+	&:before {
+		transition: transform .75s ease;
+		transition-delay: .5s;
+		content: "";
+		display: block;
+		position: absolute;
+		width: 54px;
+		height: 54px;
+		background-color: #000;
+		border-radius: 50%;
+		top: 12px;
+		left: 12px;
+	}
+}
 </style>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" type="image/png" href="favicon-16x16.ico">
@@ -170,7 +218,7 @@ ul.topnav li.right {float: right;}
     <a class="active" href="#home">Home</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
-<button onclick="myFunction()" class="button">فاتح / داكن</button>
+<button onclick="myFunction()" class="" type="checkbox" id="toggle">فاتح / داكن</button>
   </div>
 </div>
 <center>
